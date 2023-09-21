@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  height: 100px;
+}
+
+.header, 
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    background-color: #c2c2c2;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    
+}
+#container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  width: 560px;
+  height: 560px;
+  border: 3px solid black;
+  }
+
+  #container > div {
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  }
